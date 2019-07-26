@@ -258,6 +258,7 @@ top: 460px;
 #headercontent{
     width: 100%;       /*put header border and content in different divs so I could change their width values. This let me extend the border to the edge of the page. margins had to be set to auto for individual pieces because I took it out of the body so the border could extend beyond the 960px limit. */
     margin: auto;
+    padding-right: 50px;
 }
 
 .my-name{
@@ -271,6 +272,7 @@ top: 460px;
     background: #4aaaa5;
     font-weight: bold;
     padding-right: 30px;
+    margin-left: 200px;
 }
 
 .portlink{
@@ -288,6 +290,9 @@ top: 460px;
     width:200px;
 }
 
+.nav{
+    margin-right: 200px;
+}
 .nav li {
     float: right;
     padding-top: 40px;
@@ -297,7 +302,6 @@ top: 460px;
 }
 
 .nav a {
-    text-decoration: none;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     height: 40px;
@@ -389,7 +393,7 @@ img{
     }
 
     .my-name{
-        margin-left: 60px;
+        margin-left: 0px;
     }
     .nav {
         float: right;
@@ -397,6 +401,7 @@ img{
         font-size: 18px;
         height: 40px;
         padding-right: 60px;
+        margin-right: 60px
     }  
 
     #sectionhead{
@@ -404,20 +409,25 @@ img{
     }
 
     #headerborder{
-        width: 800px;
+        width: 980px;
+        margin-left: 0px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     #headercontent{
-        width: 830px;
+        width: 980px;
+        padding-left: 0px;
     }
 
     header{
-        margin-left: 60px;
-        width: 800px;
+        width: 980px;
+        margin-left: 0px;
     }
 
     .content{
         width: 400px;
+        margin-left: 0px;
     }
 
 
@@ -431,12 +441,9 @@ img{
         height: 700px; 
     }
 
-    .my-name{
-        margin-left: 20px;
-    }
     .nav {
         float: right;
-        margin-left: 10px;
+        margin-right: 20px;
         font-size: 18px;
         height: 40px;
         padding-right: 70px;
@@ -448,6 +455,7 @@ img{
 
     #headerborder{
         width: 770px;
+        padding-left: 20px;
     }
 
     #headercontent{
@@ -472,6 +480,7 @@ img{
         width: 580px;
         margin: 0px, 0px, 0px, 0px;
         margin-left: 0px;
+        padding-left: 0px;
     }
     header{
         height: 180px;
@@ -497,6 +506,7 @@ img{
         height: 180px;
         margin-left: 0px;
         padding: 0px, 0px , 0px, 0px;
+        padding-left: 0px;
     }
 
     #headercontent{
