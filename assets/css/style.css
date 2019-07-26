@@ -460,4 +460,75 @@ img{
     }
 
 
-}    
+}  
+
+@media screen and (max-width: 640px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .content{
+        width: 580px;
+        margin: 0px, 0px, 0px, 0px;
+        margin-left: 0px;
+    }
+    header{
+        height: 180px;
+        width: 610px;
+        padding: 0px, 0px , 0px, 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    .my-name{
+        height: 60px;
+        width: 610px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        padding-top: 35px;
+        padding-bottom: 15px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    #headerborder{
+        width: 610px;
+        height: 180px;
+        margin-left: 0px;
+        padding: 0px, 0px , 0px, 0px;
+    }
+
+    #headercontent{
+        width: 610px;
+        height: 180px;
+        padding: 0px, 0px, 0px, 0px;
+        margin-left: 0px;
+    }
+
+    .nav {
+        float: right;
+        margin-left: 10px;
+        font-size: 18px;
+        height: 40px;
+        padding-right: 70px;
+        margin-top: 95px;
+        margin-right: 95px;
+    }  
+
+    section{
+        width: 515px;
+        margin-left: 15px;
+        height: 700px; 
+    }
+
+    #sectionhead{
+        width: 490px;
+    }
+
+    #container{
+        width: 510px;
+        margin-left: 0px;
+    }
+
+}
