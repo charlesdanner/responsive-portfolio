@@ -425,11 +425,39 @@ img{
 
 @media screen and (max-width: 768px) {
     section{
-        width: 740px;
+        width: 630px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 700px; 
     }
 
-    .content{
-        width:740px;
+    .my-name{
+        margin-left: 20px;
     }
+    .nav {
+        float: right;
+        margin-left: 10px;
+        font-size: 18px;
+        height: 40px;
+        padding-right: 70px;
+    }  
+
+    #sectionhead{
+        width: 600px;
+    }
+
+    #headerborder{
+        width: 770px;
+    }
+
+    #headercontent{
+        width: 770px;
+    }
+
+    header{
+        width: 770px;
+        margin-left: 0px;
+    }
+
 
 }    
