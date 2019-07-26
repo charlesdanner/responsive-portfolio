@@ -404,19 +404,19 @@ img{
     }
 
     #headerborder{
-        width: 980px;
+        width: 825px;
         margin-left: 0px;
         padding-left: 60px;
         padding-right: 60px;
     }
 
     #headercontent{
-        width: 980px;
+        width: 947px;
         padding-left: 0px;
     }
 
     header{
-        width: 980px;
+        width: 947px;
         margin-left: 0px;
     }
 
@@ -444,7 +444,16 @@ img{
         width: 400px;
     }
 
-    
+    #portsection{
+        width: 500px;
+        margin-left: 60px;
+        margin-right: 30px;
+        height: 800px; 
+    }
+
+    #portfoliohead{
+        width: 470px;
+    }
 
 
 }
@@ -462,7 +471,7 @@ img{
         margin-right: 20px;
         font-size: 18px;
         height: 40px;
-        padding-right: 70px;
+        padding-right: 20px;
     }  
 
     #sectionhead{
@@ -470,19 +479,116 @@ img{
     }
 
     #headerborder{
-        width: 770px;
+        width: 650px;
         padding-left: 20px;
     }
 
     #headercontent{
-        width: 770px;
+        width: 720px;
     }
 
     header{
-        width: 770px;
+        width: 735px;
         margin-left: 0px;
     }
 
+    #contact-info{
+        width: 600px;
+        margin-left: 20px;
+        padding-right: 60px;
+
+    }
+
+    #contacthead{
+        width: 600px;
+    }
+
+    .datainput{
+        width: 620px;
+        margin-right: 20px;
+    }
+
+    textarea{
+        width: 605px;
+    }
+
+    #portsection{
+        width: 630px;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 950px; 
+    }
+
+    #portfoliohead{
+        width: 600px;
+    }
+    
+    img.portpics{
+        width: 250px;
+    }
+
+    #hangman{
+        position:absolute;
+        top: 200px; 
+        z-index: 2;
+        width: 250px;
+    }
+
+    #rutgerspic{
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+        left: 375px;
+    }
+
+    #rutgers{
+        position: absolute;
+        z-index: 2;
+        left:375px;
+        top: 175px;
+        width: 250px;
+    }
+
+    #rockpic{
+        position: absolute;
+        z-index: 1;
+        left: 375px;
+        top: 275px;
+    }
+
+    #rock{
+        position: absolute;
+        z-index: 2;
+        left:375px;
+        top: 450px;
+        width: 250px;
+    }
+
+    #rpgpic{
+        position: absolute;
+        top: 275px;
+        z-index: 1;
+    }
+
+    #rpg{
+        position: absolute;
+        top: 475px;
+        z-index: 2;
+        width: 250px;
+    }
+
+    #trivia{
+        position: absolute;
+        top: 755px;
+        z-index: 2;
+        width: 250px;
+    }
+    
+    #triviapic{
+    z-index: 1;
+    position: absolute;
+    top: 550px;
+    }
 
 }  
 
@@ -500,14 +606,14 @@ img{
     }
     header{
         height: 180px;
-        width: 610px;
+        width: 605px;
         padding: 0px, 0px , 0px, 0px;
         margin-left: 0px;
         padding-left: 0px;
     }
     .my-name{
         height: 60px;
-        width: 610px;
+        width: 605px;
         text-align: center;
         margin: 0;
         padding: 0;
@@ -518,15 +624,16 @@ img{
     }
 
     #headerborder{
-        width: 610px;
+        width: 540px;
         height: 180px;
         margin-left: 0px;
         padding: 0px, 0px , 0px, 0px;
         padding-left: 0px;
+        margin-right: 0px;
     }
 
     #headercontent{
-        width: 610px;
+        width: 555px;
         height: 180px;
         padding: 0px, 0px, 0px, 0px;
         margin-left: 0px;
@@ -537,7 +644,6 @@ img{
         margin-left: 10px;
         font-size: 18px;
         height: 40px;
-        padding-right: 70px;
         margin-top: 95px;
         margin-right: 105px;
     }  
@@ -555,6 +661,26 @@ img{
     #container{
         width: 510px;
         margin-left: 0px;
+    }
+
+    #contact-info{
+        width: 485px;
+        margin-left: 15px;
+        padding-right: 60px;
+
+    }
+
+    #contacthead{
+        width: 480px;
+    }
+
+    .datainput{
+        width: 500px;
+        margin-right: 20px;
+    }
+
+    textarea{
+        width: 485px;
     }
 
 }
