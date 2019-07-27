@@ -436,12 +436,12 @@ img{
     }
 
     .datainput{
-        width: 415px;
+        width: 490px;
         margin-right: 20px;
     }
 
     textarea{
-        width: 400px;
+        width: 475px;
     }
 
     #portsection{
@@ -453,6 +453,10 @@ img{
 
     #portfoliohead{
         width: 470px;
+    }
+
+    footer{
+        width: 947px;
     }
 
 
@@ -590,6 +594,10 @@ img{
     top: 550px;
     }
 
+    footer{
+        width: 735px;
+    }
+
 }  
 
 @media screen and (max-width: 640px){
@@ -607,7 +615,6 @@ img{
     header{
         height: 180px;
         width: 605px;
-        padding: 0px, 0px , 0px, 0px;
         margin-left: 0px;
         padding-left: 0px;
     }
@@ -681,6 +688,87 @@ img{
 
     textarea{
         width: 485px;
+    }
+
+    #portsection{
+        width: 535px;
+        margin-left: 15px;
+        padding-left: 10px;
+    }
+
+    #portfoliohead{
+        width: 490px;
+    }
+
+    img.portpics{
+        width: 200px;
+    }
+
+    #hangman{
+        position:absolute;
+        top: 200px; 
+        z-index: 2;
+        width: 200px;
+    }
+
+    #rutgerspic{
+        position: absolute;
+        top: 0px;
+        z-index: 1;
+        left: 320px;
+    }
+
+    #rutgers{
+        position: absolute;
+        z-index: 2;
+        left:320px;
+        top: 170px;
+        width: 200px;
+    }
+
+    #rockpic{
+        position: absolute;
+        z-index: 1;
+        left: 320px;
+        top: 275px;
+    }
+
+    #rock{
+        position: absolute;
+        z-index: 2;
+        left:320px;
+        top: 445px;
+        width: 200px;
+    }
+
+    #rpgpic{
+        position: absolute;
+        top: 275px;
+        z-index: 1;
+    }
+
+    #rpg{
+        position: absolute;
+        top: 475px;
+        z-index: 2;
+        width: 200px;
+    }
+
+    #trivia{
+        position: absolute;
+        top: 745px;
+        z-index: 2;
+        width: 200px;
+    }
+    
+    #triviapic{
+    z-index: 1;
+    position: absolute;
+    top: 550px;
+    }
+
+    footer{
+        width: 607px;
     }
 
 }
